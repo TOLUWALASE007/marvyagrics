@@ -7,7 +7,7 @@ const Careers = () => {
         <h1 className="text-4xl font-bold mb-12 text-center text-[#0D3333]">Careers</h1>
         
         {/* Managing Director Section */}
-        <div className="bg-white p-8 rounded-lg shadow-md mb-8">
+        <div className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-bold mb-6 text-center text-[#019A32]">Leadership</h2>
           
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
@@ -31,14 +31,6 @@ const Careers = () => {
               </p>
             </div>
           </div>
-        </div>
-        
-        {/* Career Opportunities Section */}
-        <div className="bg-white p-8 rounded-lg shadow-md">
-          <h2 className="text-2xl font-bold mb-6 text-center text-[#019A32]">Career Opportunities</h2>
-          <p className="text-lg text-center text-[#0D3333]">
-            This page will list career opportunities at Marvy Agric Solutions.
-          </p>
         </div>
       </div>
     </div>

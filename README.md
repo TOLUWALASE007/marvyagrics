@@ -1,4 +1,4 @@
-# Marvy Agric Solutions - Agricultural Innovation Website
+# Marvy Agric Solutions 
 
 ## About Marvy Agric Solutions
 
@@ -33,17 +33,22 @@ A modern, responsive React-based website showcasing Marvy Agric Solutions' compr
 - Professional color scheme (Green: #019A32, Dark Green: #0D3333)
 
 #### 📱 **Responsive Components**
-- **Header**: Navigation with mobile-friendly hamburger menu
+- **Header**: Sticky navigation with mobile-friendly hamburger menu that auto-hides near footer
 - **Hero Section**: Video background with call-to-action
 - **About Section**: Company information with video accompaniment
-- **Services Section**: Interactive service cards with hover effects
-- **Footer**: Social media links and company information
+- **Services Section**: Interactive service cards with video background and hover effects
+- **Gallery**: Dynamic collage layout with images and auto-playing videos
+- **Partners**: Strategic partnerships showcase with background imagery
+- **Careers**: Leadership profiles and company culture
+- **Footer**: Social media links and company information with logo
 
 #### 🎯 **Interactive Elements**
-- **Service Cards**: Hover animations with gradient effects
-- **Contact Form**: Form validation with real-time feedback
+- **Service Cards**: Hover animations with gradient effects and backdrop blur
+- **Gallery**: Mixed media collage with auto-playing videos and modal viewing
+- **Contact Form**: Form validation with real-time feedback and success messaging
 - **Social Media Integration**: LinkedIn, Instagram, X (Twitter), and Threads
 - **Video Backgrounds**: Auto-playing videos for visual engagement
+- **Sticky Header**: Smart header that hides when approaching footer
 
 #### 📧 **Contact System**
 - Comprehensive contact form with validation
@@ -64,9 +69,16 @@ marvy-agrics/
 │   │   ├── magric.jpeg
 │   │   ├── mengrs.jpeg
 │   │   ├── marvymetalworks.jpeg
+│   │   ├── portraitimage.jpeg
+│   │   ├── partnerspages.jpeg
 │   │   ├── aboutsection_video.mp4
 │   │   ├── herosection_video.mp4
-│   │   └── ourservices_video.mp4
+│   │   ├── ourservices_video.mp4
+│   │   └── gallery/
+│   │       ├── gallery(1).mp4
+│   │       ├── gallery(2).mp4
+│   │       ├── gallery(3).jpeg
+│   │       └── ... (25+ images & 7 videos)
 │   ├── components/
 │   │   ├── Header.jsx
 │   │   ├── Footer.jsx
@@ -77,9 +89,10 @@ marvy-agrics/
 │   ├── pages/
 │   │   ├── Home.jsx
 │   │   ├── Services.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Partners.jsx
 │   │   ├── Contact.jsx
-│   │   ├── Careers.jsx
-│   │   └── Honors.jsx
+│   │   └── Careers.jsx
 │   ├── App.js
 │   └── index.js
 ├── package.json
@@ -95,8 +108,8 @@ marvy-agrics/
 #### Installation
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/marvy-agrics.git
-   cd marvy-agrics
+   git clone https://github.com/TOLUWALASE007/marvyagrics.git
+   cd marvyagrics
    ```
 
 2. Install dependencies
@@ -125,8 +138,22 @@ npm run build
 
 #### Interactive Service Cards
 - Hover effects with scale and lift animations
-- Gradient overlays and border effects
+- Gradient overlays and border effects with backdrop blur
 - Smooth transitions for enhanced user experience
+- Video background integration for visual appeal
+
+#### Gallery System
+- Dynamic collage layout with mixed media content
+- Auto-playing videos seamlessly integrated with images
+- Modal viewing system for enlarged content
+- Responsive sizing across all devices (larger on desktop)
+- Hover effects with play indicators for videos
+
+#### Partnership Showcase
+- Strategic partner information with logos and descriptions
+- Background imagery with overlay for readability
+- External website links with security attributes
+- Professional layout highlighting collaborations
 
 #### Contact Form
 - Real-time validation with error messages
