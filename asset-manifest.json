@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/marvyagrics/static/css/main.c28fd804.css",
-    "main.js": "/marvyagrics/static/js/main.e27d01d9.js",
+    "main.css": "/marvyagrics/static/css/main.abe7f2f3.css",
+    "main.js": "/marvyagrics/static/js/main.efd0ce32.js",
     "static/media/herosection_video.mp4": "/marvyagrics/static/media/herosection_video.17d0be7d89ff2ca9364e.mp4",
     "static/media/ourservices_video.mp4": "/marvyagrics/static/media/ourservices_video.c05cd0d1a2db103a3265.mp4",
     "static/media/aboutsection_video.mp4": "/marvyagrics/static/media/aboutsection_video.004f468e971575f1d44f.mp4",
     "static/media/mengrs.jpeg": "/marvyagrics/static/media/mengrs.9da71e5e241d6480b78f.jpeg",
     "static/media/marvymetalworks.jpeg": "/marvyagrics/static/media/marvymetalworks.db18bddb20d3653e54e3.jpeg",
     "static/media/magric.jpeg": "/marvyagrics/static/media/magric.a6dec3d5dab4a6b7eda2.jpeg",
+    "static/media/portraitimage.jpeg": "/marvyagrics/static/media/portraitimage.4acb589a120e769ee207.jpeg",
     "static/media/marvy_logo.jpg": "/marvyagrics/static/media/marvy_logo.6fc16d257cfbdc61e33c.jpg",
     "index.html": "/marvyagrics/index.html",
-    "main.c28fd804.css.map": "/marvyagrics/static/css/main.c28fd804.css.map",
-    "main.e27d01d9.js.map": "/marvyagrics/static/js/main.e27d01d9.js.map"
+    "main.abe7f2f3.css.map": "/marvyagrics/static/css/main.abe7f2f3.css.map",
+    "main.efd0ce32.js.map": "/marvyagrics/static/js/main.efd0ce32.js.map"
   },
   "entrypoints": [
-    "static/css/main.c28fd804.css",
-    "static/js/main.e27d01d9.js"
+    "static/css/main.abe7f2f3.css",
+    "static/js/main.efd0ce32.js"
   ]
 }
