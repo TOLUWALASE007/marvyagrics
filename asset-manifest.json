@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marvyagrics/static/css/main.8a2e1dd6.css",
-    "main.js": "/marvyagrics/static/js/main.ad2239d4.js",
+    "main.css": "/marvyagrics/static/css/main.7864d31a.css",
+    "main.js": "/marvyagrics/static/js/main.bbf4d5f1.js",
     "static/media/gallery(7).mp4": "/marvyagrics/static/media/gallery(7).92d468aefe90227a0414.mp4",
     "static/media/gallery(4).mp4": "/marvyagrics/static/media/gallery(4).6969c042f1a61d61b694.mp4",
     "static/media/gallery(2).mp4": "/marvyagrics/static/media/gallery(2).c9f5e163b0ee413966c0.mp4",
@@ -43,13 +43,15 @@
     "static/media/gallery(23).jpeg": "/marvyagrics/static/media/gallery(23).7286c80c4a472e538c08.jpeg",
     "static/media/marvy_logo.jpg": "/marvyagrics/static/media/marvy_logo.6fc16d257cfbdc61e33c.jpg",
     "static/media/gallery(9).jpeg": "/marvyagrics/static/media/gallery(9).47f2af6e05d4235fe57f.jpeg",
+    "static/media/obasanjofarmslogo.jpeg": "/marvyagrics/static/media/obasanjofarmslogo.4a05a81b19f925f05c64.jpeg",
     "static/media/olabisionabanjounilogo.jpeg": "/marvyagrics/static/media/olabisionabanjounilogo.7322178dab4571649da5.jpeg",
+    "static/media/unibadanlogo.jpeg": "/marvyagrics/static/media/unibadanlogo.c9cc776d8a91689e3734.jpeg",
     "index.html": "/marvyagrics/index.html",
-    "main.8a2e1dd6.css.map": "/marvyagrics/static/css/main.8a2e1dd6.css.map",
-    "main.ad2239d4.js.map": "/marvyagrics/static/js/main.ad2239d4.js.map"
+    "main.7864d31a.css.map": "/marvyagrics/static/css/main.7864d31a.css.map",
+    "main.bbf4d5f1.js.map": "/marvyagrics/static/js/main.bbf4d5f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a2e1dd6.css",
-    "static/js/main.ad2239d4.js"
+    "static/css/main.7864d31a.css",
+    "static/js/main.bbf4d5f1.js"
   ]
 }
