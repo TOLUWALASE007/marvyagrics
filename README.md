@@ -46,7 +46,7 @@ A modern, responsive React-based website showcasing Marvy Agric Solutions' compr
 - **Service Cards**: Hover animations with gradient effects and backdrop blur
 - **Gallery**: Mixed media collage with auto-playing videos and modal viewing
 - **Contact Form**: Form validation with real-time feedback and success messaging
-- **Social Media Integration**: LinkedIn, Instagram, X (Twitter), and Threads
+- **Social Media Integration**: LinkedIn, Instagram, and X (Twitter)
 - **Video Backgrounds**: Auto-playing videos for visual engagement
 - **Sticky Header**: Smart header that hides when approaching footer
 
@@ -71,6 +71,11 @@ marvy-agrics/
 │   │   ├── marvymetalworks.jpeg
 │   │   ├── portraitimage.jpeg
 │   │   ├── partnerspages.jpeg
+│   │   ├── olabisionabanjounilogo.jpeg
+│   │   ├── soillessfarmlogo.jpeg
+│   │   ├── funaab.jpeg
+│   │   ├── obasanjofarmslogo.jpeg
+│   │   ├── unibadanlogo.jpeg
 │   │   ├── aboutsection_video.mp4
 │   │   ├── herosection_video.mp4
 │   │   ├── ourservices_video.mp4
@@ -154,6 +159,8 @@ npm run build
 - Background imagery with overlay for readability
 - External website links with security attributes
 - Professional layout highlighting collaborations
+- **5 Strategic Partners**: Educational institutions, agricultural innovators, and industry pioneers
+- **Partner Categories**: Universities (OOU, FUNAAB, UI), Research Labs (Soilless Farm Lab), Agricultural Enterprises (Obasanjo Farms)
 
 #### Contact Form
 - Real-time validation with error messages
@@ -162,7 +169,7 @@ npm run build
 - Responsive design for all screen sizes
 
 #### Social Media Integration
-- SVG icons for LinkedIn, Instagram, X (Twitter), and Threads
+- SVG icons for LinkedIn, Instagram, and X (Twitter)
 - Hover effects with brand colors
 - External links with proper security attributes
 
@@ -177,6 +184,9 @@ npm run build
 - Lazy loading for better performance
 - Minified CSS and JavaScript for production
 - Responsive images for different screen sizes
+- **Cross-Device Font Consistency**: Google Fonts (Inter & Poppins) with comprehensive fallbacks
+- **Font Preloading**: Optimized font loading for better performance
+- **Mobile Font Optimization**: Enhanced meta tags for consistent typography across devices
 
 ### Future Enhancements
 - Blog section for agricultural insights
@@ -196,7 +206,6 @@ npm run build
 - [LinkedIn](https://ng.linkedin.com/company/marvyagrics)
 - [Instagram](https://www.instagram.com/marvyagrics/)
 - [X (Twitter)](https://x.com/MarvyAgrics)
-- [Threads](https://www.threads.com/@marvyagrics)
 
 ---
 

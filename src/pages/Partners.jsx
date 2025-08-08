@@ -1,6 +1,8 @@
 import olabisiOnabanjoLogo from '../assets/olabisionabanjounilogo.jpeg';
 import soillessFarmLogo from '../assets/soillessfarmlogo.jpeg';
 import funaabLogo from '../assets/funaab.jpeg';
+import obasanjoFarmsLogo from '../assets/obasanjofarmslogo.jpeg';
+import unibadanLogo from '../assets/unibadanlogo.jpeg';
 import partnersBackground from '../assets/partnerspages.jpeg';
 
 const Partners = () => {
@@ -25,6 +27,20 @@ const Partners = () => {
       website: "https://funaab.edu.ng/",
       logo: funaabLogo,
       alt: "FUNAAB Logo"
+    },
+    {
+      name: "Obasanjo Farms Nigeria Limited",
+      description: "Pioneering Nigeria's agricultural sector from humble Ota beginnings. Inspired by Chief Obasanjo's resilience, we overcome challenges to feed Africa. Committed to growth, positive change, and sustainable solutions through core agricultural values.",
+      website: "https://obasanjofarmsng.com/",
+      logo: obasanjoFarmsLogo,
+      alt: "Obasanjo Farms Nigeria Limited Logo"
+    },
+    {
+      name: "University of Ibadan (UI)",
+      description: "Nigeria's premier university established in 1948. From its historic beginnings as Yaba College to becoming Africa's leading research institution, UI has shaped generations through academic excellence, innovation, and impactful scholarship across diverse disciplines.",
+      website: "https://ui.edu.ng/",
+      logo: unibadanLogo,
+      alt: "University of Ibadan Logo"
     }
   ];
 
@@ -86,10 +102,11 @@ const Partners = () => {
         <div className="mt-12 bg-white/95 backdrop-blur-sm p-8 rounded-lg shadow-md text-center">
           <h2 className="text-2xl font-bold mb-4 text-[#019A32]">Strategic Partnerships</h2>
           <p className="text-lg text-[#0D3333] leading-relaxed">
-            We are proud to collaborate with leading educational institutions and agricultural innovators 
+            We are proud to collaborate with leading educational institutions, agricultural innovators, and industry pioneers 
             to advance sustainable farming practices and empower the next generation of agricultural leaders. 
-            These partnerships enable us to deliver cutting-edge solutions and comprehensive training programs 
-            that drive agricultural transformation in Nigeria and beyond.
+            Our diverse network of partners spans from premier universities to established agricultural enterprises, 
+            enabling us to deliver cutting-edge solutions and comprehensive training programs that drive agricultural 
+            transformation in Nigeria and beyond.
           </p>
         </div>
       </div>
