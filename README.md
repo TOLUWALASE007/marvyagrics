@@ -198,7 +198,8 @@ npm run build
 ---
 
 **Contact Information**
-- **Email**: info@marvyagrics.com
+- **Email**: marvyagrics@gmail.com
+- **Phone**: +234(0)8135308369, +234(0)9073872247
 - **Location**: Awowo Town, Abeokuta, Ogun State, Nigeria
 - **Website**: [www.marvyagrics.com](https://www.marvyagrics.com)
 

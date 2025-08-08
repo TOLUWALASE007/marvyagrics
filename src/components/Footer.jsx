@@ -33,8 +33,8 @@ const Footer = () => {
         </div>
         <div>
           <h4 className="text-lg font-bold mb-4">Contact Us</h4>
-          <p>Email: info@marvyagrics.com</p>
-          <p>Phone: +123 456 7890</p>
+          <p>Email: marvyagrics@gmail.com</p>
+          <p>Phone: +234(0)8135308369, +234(0)9073872247</p>
           <p>Address: KM 15, Owiwi, Sango Ota Road, Akinjole Town Abeokuta, Ogun State 110106, NG</p>
           
           {/* Social Media Icons */}
