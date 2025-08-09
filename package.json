@@ -2,7 +2,7 @@
   "name": "marvy-agrics",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://TOLUWALASE007.github.io/marvyagrics",
+  "homepage": ".",
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
