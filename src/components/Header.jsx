@@ -42,7 +42,7 @@ const Header = () => {
           <Link to="/services" className="hover:text-[#019A32] transition">Our Services</Link>
           <Link to="/partners" className="hover:text-[#019A32] transition">Partners</Link>
           <Link to="/gallery" className="hover:text-[#019A32] transition">Gallery</Link>
-          <Link to="/careers" className="hover:text-[#019A32] transition">Careers</Link>
+                      <Link to="/our-team" className="hover:text-[#019A32] transition">Our Team</Link>
           <Link to="/contact" className="hover:text-[#019A32] transition">Contact Us</Link>
         </nav>
 
@@ -105,11 +105,11 @@ const Header = () => {
               </li>
               <li>
                 <Link 
-                  to="/careers" 
+                  to="/our-team" 
                   className="block hover:text-[#019A32] transition py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Careers
+                  Our Team
                 </Link>
               </li>
               <li>

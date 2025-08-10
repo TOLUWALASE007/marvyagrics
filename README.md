@@ -39,7 +39,8 @@ A modern, responsive React-based website showcasing Marvy Agric Solutions' compr
 - **Services Section**: Interactive service cards with video background and hover effects
 - **Gallery**: Dynamic collage layout with images and auto-playing videos
 - **Partners**: Strategic partnerships showcase with background imagery
-- **Careers**: Leadership profiles and company culture
+- **Our Team**: Leadership profiles and company culture
+- **Interns**: Current intern profiles and internship program information
 - **Footer**: Social media links and company information with logo
 
 #### 🎯 **Interactive Elements**
@@ -52,8 +53,10 @@ A modern, responsive React-based website showcasing Marvy Agric Solutions' compr
 
 #### 📧 **Contact System**
 - Comprehensive contact form with validation
-- Required fields: First Name, Last Name, Email, Message
+- Required fields: First Name, Last Name, Email, Title, Message
 - Optional field: Phone Number
+- **Email Integration**: Automatically opens user's email client with pre-filled email to info@marvyagrics.com
+- **Smart Email Formatting**: Subject line uses the Title field, body includes all form data
 - Success message display with form clearing
 - Loading states and error handling
 
@@ -97,7 +100,8 @@ marvy-agrics/
 │   │   ├── Gallery.jsx
 │   │   ├── Partners.jsx
 │   │   ├── Contact.jsx
-│   │   └── Careers.jsx
+│   │   ├── OurTeam.jsx
+│   │   └── Interns.jsx
 │   ├── App.js
 │   └── index.js
 ├── package.json
@@ -164,6 +168,9 @@ npm run build
 
 #### Contact Form
 - Real-time validation with error messages
+- **Title Field**: New required field for message subject
+- **Email Integration**: Direct mailto link to info@marvyagrics.com
+- **Pre-filled Email**: Automatically opens user's email client with formatted content
 - Success feedback with automatic form clearing
 - Loading states during submission
 - Responsive design for all screen sizes
@@ -198,7 +205,7 @@ npm run build
 ---
 
 **Contact Information**
-- **Email**: marvyagrics@gmail.com
+- **Email**: info@marvyagrics.com
 - **Phone**: +234(0)8135308369, +234(0)9073872247
 - **Location**: Awowo Town, Abeokuta, Ogun State, Nigeria
 - **Website**: [www.marvyagrics.com](https://www.marvyagrics.com)

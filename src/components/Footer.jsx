@@ -19,7 +19,7 @@ const Footer = () => {
             <li><Link to="/services" className="hover:text-[#019A32] transition">Services</Link></li>
             <li><Link to="/partners" className="hover:text-[#019A32] transition">Partners</Link></li>
             <li><Link to="/gallery" className="hover:text-[#019A32] transition">Gallery</Link></li>
-            <li><Link to="/careers" className="hover:text-[#019A32] transition">Careers</Link></li>
+                          <li><Link to="/our-team" className="hover:text-[#019A32] transition">Our Team</Link></li>
             <li><Link to="/contact" className="hover:text-[#019A32] transition">Contact</Link></li>
           </ul>
         </div>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         <div>
           <h4 className="text-lg font-bold mb-4">Contact Us</h4>
-          <p>Email: marvyagrics@gmail.com</p>
+          <p>Email: info@marvyagrics.com</p>
           <p>Phone: +234(0)8135308369, +234(0)9073872247</p>
           <p>Address: KM 15, Owiwi, Sango Ota Road, Akinjole Town Abeokuta, Ogun State 110106, NG</p>
           

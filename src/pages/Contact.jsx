@@ -6,6 +6,7 @@ const Contact = () => {
     lastName: '',
     phone: '',
     email: '',
+    title: '',
     message: ''
   });
   const [errors, setErrors] = useState({});
@@ -40,6 +41,9 @@ const Contact = () => {
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = 'Please enter a valid email address';
     }
+    if (!formData.title.trim()) {
+      newErrors.title = 'Title is required';
+    }
     if (!formData.message.trim()) {
       newErrors.message = 'Message is required';
     }
@@ -57,6 +61,21 @@ const Contact = () => {
 
     setIsSubmitting(true);
 
+    // Prepare email content
+    const subject = encodeURIComponent(formData.title);
+    const body = encodeURIComponent(
+      `Name: ${formData.firstName} ${formData.lastName}\n` +
+      `Email: ${formData.email}\n` +
+      `Phone: ${formData.phone || 'Not provided'}\n\n` +
+      `Message:\n${formData.message}`
+    );
+    
+    // Create mailto link
+    const mailtoLink = `mailto:info@marvyagrics.com?subject=${subject}&body=${body}`;
+    
+    // Open default email client
+    window.open(mailtoLink);
+
     setTimeout(() => {
       setIsSubmitting(false);
       setShowSuccess(true);
@@ -66,6 +85,7 @@ const Contact = () => {
         lastName: '',
         phone: '',
         email: '',
+        title: '',
         message: ''
       });
       setErrors({});
@@ -171,6 +191,26 @@ const Contact = () => {
                   <p className="mt-1 text-sm text-red-500">{errors.email}</p>
                 )}
               </div>
+            </div>
+
+            <div>
+              <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-2">
+                Title <span className="text-red-500">*</span>
+              </label>
+              <input
+                type="text"
+                id="title"
+                name="title"
+                value={formData.title}
+                onChange={handleChange}
+                className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-[#019A32] focus:border-[#019A32] transition-colors duration-200 ${
+                  errors.title ? 'border-red-500' : 'border-gray-300'
+                }`}
+                placeholder="Enter message title"
+              />
+              {errors.title && (
+                <p className="mt-1 text-sm text-red-500">{errors.title}</p>
+              )}
             </div>
 
             <div>

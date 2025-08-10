@@ -6,7 +6,8 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Partners from './pages/Partners';
 import Gallery from './pages/Gallery';
-import Careers from './pages/Careers';
+import OurTeam from './pages/OurTeam';
+import Interns from './pages/Interns';
 import Contact from './pages/Contact';
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/partners" element={<Partners />} />
             <Route path="/gallery" element={<Gallery />} />
-            <Route path="/careers" element={<Careers />} />
+            <Route path="/our-team" element={<OurTeam />} />
+            <Route path="/interns" element={<Interns />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
