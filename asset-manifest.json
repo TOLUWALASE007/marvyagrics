@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.7864d31a.css",
-    "main.js": "./static/js/main.428a7466.js",
+    "main.css": "./static/css/main.f1bb6c11.css",
+    "main.js": "./static/js/main.346143ea.js",
     "static/media/gallery(7).mp4": "./static/media/gallery(7).92d468aefe90227a0414.mp4",
     "static/media/gallery(4).mp4": "./static/media/gallery(4).6969c042f1a61d61b694.mp4",
     "static/media/gallery(2).mp4": "./static/media/gallery(2).c9f5e163b0ee413966c0.mp4",
@@ -9,6 +9,7 @@
     "static/media/gallery(1).mp4": "./static/media/gallery(1).50dcac3ea512f06530b8.mp4",
     "static/media/gallery(13).mp4": "./static/media/gallery(13).89309953ea017992b527.mp4",
     "static/media/gallery(6).mp4": "./static/media/gallery(6).57c1af03d6098d17e63d.mp4",
+    "static/media/intern(1).jpeg": "./static/media/intern(1).075f805244aeec21cc09.jpeg",
     "static/media/gallery(5).mp4": "./static/media/gallery(5).c05cd0d1a2db103a3265.mp4",
     "static/media/ourservices_video.mp4": "./static/media/ourservices_video.c05cd0d1a2db103a3265.mp4",
     "static/media/aboutsection_video.mp4": "./static/media/aboutsection_video.004f468e971575f1d44f.mp4",
@@ -47,11 +48,11 @@
     "static/media/olabisionabanjounilogo.jpeg": "./static/media/olabisionabanjounilogo.7322178dab4571649da5.jpeg",
     "static/media/unibadanlogo.jpeg": "./static/media/unibadanlogo.c9cc776d8a91689e3734.jpeg",
     "index.html": "./index.html",
-    "main.7864d31a.css.map": "./static/css/main.7864d31a.css.map",
-    "main.428a7466.js.map": "./static/js/main.428a7466.js.map"
+    "main.f1bb6c11.css.map": "./static/css/main.f1bb6c11.css.map",
+    "main.346143ea.js.map": "./static/js/main.346143ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.7864d31a.css",
-    "static/js/main.428a7466.js"
+    "static/css/main.f1bb6c11.css",
+    "static/js/main.346143ea.js"
   ]
 }
