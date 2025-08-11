@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.f1bb6c11.css",
-    "main.js": "./static/js/main.346143ea.js",
+    "main.js": "./static/js/main.fc9622a3.js",
     "static/media/gallery(7).mp4": "./static/media/gallery(7).92d468aefe90227a0414.mp4",
     "static/media/gallery(4).mp4": "./static/media/gallery(4).6969c042f1a61d61b694.mp4",
     "static/media/gallery(2).mp4": "./static/media/gallery(2).c9f5e163b0ee413966c0.mp4",
@@ -27,6 +27,7 @@
     "static/media/gallery(32).jpeg": "./static/media/gallery(32).a64174782cf151cf18b3.jpeg",
     "static/media/magric.jpeg": "./static/media/magric.a6dec3d5dab4a6b7eda2.jpeg",
     "static/media/partnerspages.jpeg": "./static/media/partnerspages.f25948cf9e7660909c15.jpeg",
+    "static/media/intern(2).jpeg": "./static/media/intern(2).c25267763036746b5f45.jpeg",
     "static/media/gallery(16).jpeg": "./static/media/gallery(16).3e1ccf5282bb6082d069.jpeg",
     "static/media/gallery(33).jpeg": "./static/media/gallery(33).2bccd6602ba11dc1e1d0.jpeg",
     "static/media/gallery(26).jpeg": "./static/media/gallery(26).6a2fcf96dfd9e09dd823.jpeg",
@@ -49,10 +50,10 @@
     "static/media/unibadanlogo.jpeg": "./static/media/unibadanlogo.c9cc776d8a91689e3734.jpeg",
     "index.html": "./index.html",
     "main.f1bb6c11.css.map": "./static/css/main.f1bb6c11.css.map",
-    "main.346143ea.js.map": "./static/js/main.346143ea.js.map"
+    "main.fc9622a3.js.map": "./static/js/main.fc9622a3.js.map"
   },
   "entrypoints": [
     "static/css/main.f1bb6c11.css",
-    "static/js/main.346143ea.js"
+    "static/js/main.fc9622a3.js"
   ]
 }
