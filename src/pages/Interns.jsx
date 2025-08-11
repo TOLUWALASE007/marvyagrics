@@ -1,4 +1,5 @@
-import internImage from '../assets/intern(1).jpeg';
+import internImage1 from '../assets/intern(1).jpeg';
+import internImage2 from '../assets/intern(2).jpeg';
 
 const Interns = () => {
   return (
@@ -6,15 +7,15 @@ const Interns = () => {
       <div className="container mx-auto">
         <h1 className="text-4xl font-bold mb-12 text-center text-[#0D3333]">Our Interns</h1>
         
-        {/* Interns Section */}
-        <div className="bg-white p-8 rounded-lg shadow-md">
+        {/* First Intern - Ebomah Divine Victor */}
+        <div className="bg-white p-8 rounded-lg shadow-md mb-8">
           <h2 className="text-2xl font-bold mb-6 text-center text-[#019A32]">Current Interns</h2>
           
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
             {/* Intern Image */}
             <div className="flex-shrink-0">
               <img 
-                src={internImage} 
+                src={internImage1} 
                 alt="Ebomah Divine Victor - Graduate Agricultural Engineer"
                 className="w-64 h-80 object-cover rounded-lg shadow-lg"
               />
@@ -35,6 +36,28 @@ const Interns = () => {
           </div>
         </div>
 
+        {/* Second Intern - Adesina Jude Ademola */}
+        <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+            {/* Intern Image */}
+            <div className="flex-shrink-0">
+              <img 
+                src={internImage2} 
+                alt="Adesina Jude Ademola - Undergraduate Agricultural Engineering Student"
+                className="w-64 h-80 object-cover rounded-lg shadow-lg"
+              />
+            </div>
+            
+            {/* Description */}
+            <div className="flex-1">
+              <h3 className="text-xl font-bold mb-3 text-[#0D3333]">Adesina Jude Ademola</h3>
+              <p className="text-sm text-[#019A32] font-semibold mb-4">Undergraduate Agricultural Engineering Student</p>
+              <p className="text-lg leading-relaxed text-[#0D3333]">
+                Adesina Jude Ademola is an undergraduate student of Agricultural Engineering at the University of Ibadan, passionate about applying mechanical expertise to improve agricultural productivity. With hands-on experience from his internship at the International Institute of Tropical Agriculture, he has developed skills in machinery repair, maintenance, and diagnostics. Adept in welding, fabrication, and safety protocols, he has also contributed to departmental projects such as mini tractor maintenance and preventive servicing of equipment. A member of the Nigerian Society of Black Engineers (Student Chapter), he actively participates in initiatives that promote sustainable and efficient farming practices. He envisions a career where innovative engineering solutions drive progress in agricultural technology and food security.
+              </p>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>

@@ -1,0 +1,5 @@
+[33md366ac75[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Major website updates: Careers to Our Team, Interns page, enhanced contact form with email integration, updated README
+[33m254a479a[m chore: configure custom domain and relative assets for GitHub Pages\n\n- Set CNAME to marvyagrics.com\n- Switch homepage to '.' for relative asset paths to fix 404 on custom domain
+[33mfbeff531[m feat: Update contact information in footer and README
+[33m178adc5e[m feat: Add new partners and remove Threads social media
+[33ma9edd855[m feat: Transform Honors to Gallery with videos and enhanced Partners page
