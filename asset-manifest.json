@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.f1bb6c11.css",
-    "main.js": "./static/js/main.e54fe847.js",
+    "main.js": "./static/js/main.2afc8873.js",
     "static/media/gallery(7).mp4": "./static/media/gallery(7).92d468aefe90227a0414.mp4",
     "static/media/gallery(4).mp4": "./static/media/gallery(4).6969c042f1a61d61b694.mp4",
     "static/media/gallery(2).mp4": "./static/media/gallery(2).c9f5e163b0ee413966c0.mp4",
@@ -9,7 +9,6 @@
     "static/media/gallery(1).mp4": "./static/media/gallery(1).50dcac3ea512f06530b8.mp4",
     "static/media/gallery(13).mp4": "./static/media/gallery(13).89309953ea017992b527.mp4",
     "static/media/gallery(6).mp4": "./static/media/gallery(6).57c1af03d6098d17e63d.mp4",
-    "static/media/intern(1).jpeg": "./static/media/intern(1).075f805244aeec21cc09.jpeg",
     "static/media/gallery(5).mp4": "./static/media/gallery(5).c05cd0d1a2db103a3265.mp4",
     "static/media/ourservices_video.mp4": "./static/media/ourservices_video.c05cd0d1a2db103a3265.mp4",
     "static/media/aboutsection_video.mp4": "./static/media/aboutsection_video.004f468e971575f1d44f.mp4",
@@ -22,6 +21,7 @@
     "static/media/marvymetalworks.jpeg": "./static/media/marvymetalworks.db18bddb20d3653e54e3.jpeg",
     "static/media/gallery(29).jpeg": "./static/media/gallery(29).8506dedade79c2bd85a9.jpeg",
     "static/media/gallery(3).jpeg": "./static/media/gallery(3).21a8e25b84d8c6306df9.jpeg",
+    "static/media/intern(4).jpg": "./static/media/intern(4).192231f41a1f63e850e6.jpg",
     "static/media/gallery(19).jpeg": "./static/media/gallery(19).3db0bc19dc09e9dc152d.jpeg",
     "static/media/gallery(25).jpeg": "./static/media/gallery(25).5da574e310654159dceb.jpeg",
     "static/media/gallery(32).jpeg": "./static/media/gallery(32).a64174782cf151cf18b3.jpeg",
@@ -35,6 +35,7 @@
     "static/media/gallery(21).jpeg": "./static/media/gallery(21).30ce5fbc5f2604fc32a0.jpeg",
     "static/media/gallery(15).jpeg": "./static/media/gallery(15).661ce2605d36a548cb98.jpeg",
     "static/media/gallery(8).jpeg": "./static/media/gallery(8).5d6bbf5039f67b8be458.jpeg",
+    "static/media/intern(1).jpg": "./static/media/intern(1).ecfa978c763a577b687b.jpg",
     "static/media/gallery(10).jpeg": "./static/media/gallery(10).eeb278cfd5107f2853ff.jpeg",
     "static/media/portraitimage.jpeg": "./static/media/portraitimage.4acb589a120e769ee207.jpeg",
     "static/media/gallery(27).jpeg": "./static/media/gallery(27).5c84b7890ec089f5db1a.jpeg",
@@ -42,6 +43,7 @@
     "static/media/gallery(24).jpeg": "./static/media/gallery(24).2979ef4ae40d114be30f.jpeg",
     "static/media/gallery(30).jpeg": "./static/media/gallery(30).9cd10271d66b7f1f5e76.jpeg",
     "static/media/gallery(14).jpeg": "./static/media/gallery(14).a7e96e66b011feca5b3f.jpeg",
+    "static/media/BOD(1).jpg": "./static/media/BOD(1).a8e6c4b2564021579b48.jpg",
     "static/media/gallery(11).jpeg": "./static/media/gallery(11).f566ba0672d6cdc51134.jpeg",
     "static/media/gallery(23).jpeg": "./static/media/gallery(23).7286c80c4a472e538c08.jpeg",
     "static/media/marvy_logo.jpg": "./static/media/marvy_logo.6fc16d257cfbdc61e33c.jpg",
@@ -51,10 +53,10 @@
     "static/media/unibadanlogo.jpeg": "./static/media/unibadanlogo.c9cc776d8a91689e3734.jpeg",
     "index.html": "./index.html",
     "main.f1bb6c11.css.map": "./static/css/main.f1bb6c11.css.map",
-    "main.e54fe847.js.map": "./static/js/main.e54fe847.js.map"
+    "main.2afc8873.js.map": "./static/js/main.2afc8873.js.map"
   },
   "entrypoints": [
     "static/css/main.f1bb6c11.css",
-    "static/js/main.e54fe847.js"
+    "static/js/main.2afc8873.js"
   ]
 }
