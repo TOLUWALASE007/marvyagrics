@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import portraitImage from '../assets/portraitimage.jpeg';
+import bodImage from '../assets/BOD(1).jpg';
 
 const OurTeam = () => {
   return (
@@ -29,6 +30,29 @@ const OurTeam = () => {
                 Engr. Samuel Oyeniyi, MD of Marvy Agric Solutions, is an innovative leader bridging engineering and agriculture. 
                 He pioneers hydroponics, precision farming and youth empowerment - training 100+ students and driving Nigeria's 
                 agri-innovation for food security and economic growth.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Board Member Section */}
+        <div className="bg-white p-8 rounded-lg shadow-md mb-8">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+            {/* Board Member Image */}
+            <div className="flex-shrink-0">
+              <img 
+                src={bodImage} 
+                alt="Prof. Mobolaji Omobowale - Board Member"
+                className="w-64 h-80 object-cover rounded-lg shadow-lg"
+              />
+            </div>
+            
+            {/* Description */}
+            <div className="flex-1">
+              <h3 className="text-xl font-bold mb-3 text-[#0D3333]">Prof. Mobolaji Omobowale</h3>
+              <p className="text-sm text-[#019A32] font-semibold mb-4">Board Member</p>
+              <p className="text-lg leading-relaxed text-[#0D3333]">
+                Prof. Mobolaji Omobowale is a distinguished Agricultural Engineer and an academic with 20+ years experience. Award-winning researcher (MacArthur/World Bank Fellow), international consultant, and President of ANG-ASABE. Expert in agricultural structures, climate adaptation, and postharvest solutions. COREN-registered with extensive leadership in food security initiatives.
               </p>
             </div>
           </div>
